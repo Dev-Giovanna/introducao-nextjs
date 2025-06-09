@@ -1,13 +1,13 @@
-import ClientCounter from "@/components/ClientCounter"
+// import ThemeToggle from '@/components/ThemeToggle';
 
-export default function ServerExample() {
-    const data = 'dados do banco de dados'
+// export default function ServerTimePage() {
+//   const serverDate = new Date().toLocaleString();
 
-    return (
-        <div>
-            <h1> Dados do Servidor </h1>
-            <p> {data} </p>
-            <ClientCounter />
-        </div>
-    )
-}
+//   return (
+//     <div className="p-4">
+//       <h1 className="text-2xl font-bold">Data/Hora do Servidor:</h1>
+//       <p>{serverDate}</p>
+//       <ThemeToggle />
+//     </div>
+//   );
+// }
